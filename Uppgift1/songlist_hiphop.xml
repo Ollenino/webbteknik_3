@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Songlist SYSTEM "songlist.dtd">
+<Songlist>
+    <Genre name="Hiphop">
+        <Instance id="s1">
+            <Song url="https://open.spotify.com/track/2b7FqlHc3JrzlYtGEkzq22?si=1a0e4f3853dd48ee">Juicy</Song>
+            <Artist>The Notorious B.I.G.</Artist>
+        </Instance>
+        <Instance id="s2">
+            <Song url="https://open.spotify.com/track/5Z01UMMf7V1o0MzF86s6WJ?si=89885910f5fc4dc2">Lose Yourself</Song>
+            <Artist>Eminem</Artist>
+        </Instance>
+    </Genre>
+</Songlist>

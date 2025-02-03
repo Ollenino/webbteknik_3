@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Songlist SYSTEM "songlist.dtd">
+<Songlist>
+    <Genre name="Classical">
+        <Instance id="c1">
+            <Song url="https://open.spotify.com/track/1c3GkbZBnyrQ1cm4TGHFrK?si=37655db5141049bc">Canon in D</Song>
+            <Artist>Pachelbel</Artist>
+        </Instance>
+        <Instance id="c2">
+            <Song url="https://open.spotify.com/track/1DfGPEHxTYeaJpiNA4xUb5?si=5437002a0b3b4acc">Für Elise</Song>
+            <Artist>Ludwig van Beethoven</Artist>
+        </Instance>
+    </Genre>
+</Songlist>

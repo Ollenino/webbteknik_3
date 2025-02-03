@@ -1,0 +1,37 @@
+<!---
+Songlist
+-   Genre+ 
+    - Hiphop
+        -Intance
+            - Song: Juicy -The notorious B.I.G.
+            - Artist: Eminem
+    - Classic
+        - Instance
+            - Song: Canon i D - Pachelbel
+            - Artist: Mozart
+    - Pop
+        - Instance
+            - Song: Thriller - Michael Jackson
+            - Artist: Ed Sheeran
+    - House
+        -Instance
+            - Song: Levels - Avicii
+            - Artist: David Guetta
+-->
+
+<!ELEMENT Songlist (Genre+)>
+<!ELEMENT Genre (Instance+)>
+<!ATTLIST Genre name CDATA #REQUIRED>
+
+<!ELEMENT Instance (Song, Artist)>
+<!ATTLIST Instance id ID #REQUIRED>
+
+<!ELEMENT Song (#PCDATA)>
+<!ATTLIST Song url CDATA #IMPLIED>
+
+<!ELEMENT Artist (#PCDATA)>
+
+
+
+
+            
