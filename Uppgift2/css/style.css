@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* ----- Stil för uppgiften ----- */
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+nav {
+    font-size: 130%;
+    margin-bottom: 40px;
+}
+
+.mainImg {
+    float: left;
+    width: 50%;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+#products div {
+    flex: 0 1 100px;
+    text-align: center;
+}
+#products h4,
+#products p {
+    margin:4px 0;
+}
+#products p {
+    font-size: 0.8em;
+}
+#products button.order {
+    background-color: #82b3e3;
+    color: #000;
+}
+#products button.order:hover {
+    background-color: #4c8fd2;
+}
+
+#cart div {
+    margin-bottom: 20px;
+}
+#cart h4 {
+    display: inline;
+    vertical-align: middle;
+}
+#cart button.del {
+    background-color: unset;
+    background-image: url(../img/trashcan.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    float: right;
+}
+#cart p {
+    margin:4px 0;
+}
+#cart button.decr,
+#cart button.incr {
+    background-color: #FFF;
+    width: 30px;
+}
+
+#shoppingcart {
+    background-color: #FDB;
+    padding: 12px;
+}
+#shoppingcart > div:has(#totPrice) {
+    font-weight: bold;
+}
+
+
