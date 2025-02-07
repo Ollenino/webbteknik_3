@@ -1,0 +1,47 @@
+{
+	"subject": "Historia",
+    "course": [
+        {
+            "level": "G1F",
+            "code": "hi741",
+            "title": {
+                "swedish": "Den mörka tiden",
+                "english": "The dark ages"
+            },
+            "credits": 7.5,
+            "description": "Tiden som styrdes av han som ej får nämnas vid namn.",
+            "teacher": "Severus Snape",
+            "website": {
+                "url": "https://magic.enur.se/historia/hi741.html"
+            }
+        },
+        {
+            "level": "G1N",
+            "pace": "50%",
+            "code": "hi258",
+            "title": {
+                "swedish": "Magins historia",
+                "english": "History of magic"
+            },
+            "credits": 7.5,
+            "description": "Grundläggande genomgång av magins milstolpar genom historien.",
+            "website": {
+                "url": "https://magic.enur.se/historia/hi258.html"
+            }
+        },
+        {
+            "level": "G1F",
+            "code": "hi963",
+            "title": {
+                "swedish": "Mugglarnas värld, som de känner till den",
+                "english": "The Muggle world, as they know it"
+            },
+            "credits": 7.5,
+            "description": "Historiska tillbakablickar i Mugglarnas förvirrande värld.",
+            "teacher": "Quirinus Quirrell",
+            "website": {
+                "url": "https://magic.enur.se/historia/hi258.html"
+            }
+        }
+    ]
+}

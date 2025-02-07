@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* ----- Stil för uppgiften ----- */
+
+#subjectInfo {
+    float: left;
+    width: 40%;
+    padding: 1em;
+}
+
+#courseList {
+    margin-left: 40%;
+    padding: 1em;
+}
+
+#courseList h4 {
+    margin-bottom: 0;
+}
+
+#courseList ul {
+    margin-top: 0;
+}
+
+a {
+    color: inherit;
+}

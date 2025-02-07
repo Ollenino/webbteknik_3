@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no"?>
+<!DOCTYPE subjects SYSTEM "subjects.dtd">
+
+<subjects>
+    <subject url="https://magic.enur.se/ekonomi/">
+		<name>Ekonomi</name>
+		<info>Kurser i ekonomiska kalkyler och bokföring, ledda av mästarna i området, nämligen Svartalverna.</info>
+        <courselist>courses2.json</courselist>
+	</subject>
+    <subject url="https://magic.enur.se/historia/">
+		<name>Historia</name>
+		<info>En bred historebeskrivning både av magins och mugglarnas värld.</info>
+        <courselist>courses3.json</courselist>
+	</subject>
+    <subject url="https://magic.enur.se/programmering/">
+		<name>Programmering</name>
+		<info>Magi och trollkonster inom programmering. Mystiska egenskaper och koder samt trollformler, för att hantera dem.</info>
+        <courselist>courses1.json</courselist>
+	</subject>
+	<not_awailable>
+		Ämnet finns inte i denna värld.
+	</not_awailable>
+</subjects>

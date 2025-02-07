@@ -1,0 +1,76 @@
+{
+	"subject": "Programmering",
+    "course": [
+        {
+            "level": "G1N",
+            "pace": "50%",
+            "code": "mp123",
+            "title": {
+                "swedish": "Magiska koder",
+                "english": "Magical codes"
+            },
+            "credits": 7.5,
+            "description": "Grundläggande symboler, runor och andra koder med magisk kraft i program.",
+           "website": {
+                "url": "https://magic.enur.se/programmering/mp123.html"
+            }
+        },
+        {
+            "level": "G1F",
+            "pace": "100%",
+            "code": "mp234",
+            "title": {
+                "swedish": "Gåtfulla objekt",
+                "english": "Enigmatic objects"
+            },
+            "credits": 15,
+            "description": "Objekt i JavaScript med överraskande förvandlingar.",
+            "teacher": "Alastar Moody",
+            "website": {
+                "url": "https://magic.enur.se/programmering/mp234.html"
+            }
+        },
+        {
+            "level": "G1F",
+            "code": "mp345",
+            "title": {
+                "swedish": "Trollformler i felsökning",
+                "english": "Spells in debugging"
+            },
+            "credits": 7.5,
+            "description": "Desperat debugging av programkod.",
+            "website": {
+                "url": "https://magic.enur.se/programmering/mp345.html"
+            }
+        },
+        {
+            "level": "G1F",
+            "pace": "200%",
+            "code": "mp654",
+            "title": {
+                "swedish": "Mystiska loopar",
+                "english": "Mysterious loops"
+            },
+            "credits": 15,
+            "description": "Programloopar som ringlar sig runt i programmet på oförklarliga vägar.",
+            "teacher": "Minerva McGonagall",
+            "website": {
+                "url": "https://magic.enur.se/programmering/mp654.html"
+            }
+        },
+        {
+            "level": "G2F",
+            "code": "mp987",
+            "title": {
+                "swedish": "Överaskande funktioner",
+                "english": "Surprising functions"
+            },
+            "credits": 7.5,
+            "description": "Utvecklig av program som gör något annat än vad både programmeraren och användaren förväntade sig.",
+            "teacher": "Albus Dumbeldore",
+            "website": {
+                "url": "https://magic.enur.se/programmering/mp987.html"
+            }
+        }
+    ]
+}

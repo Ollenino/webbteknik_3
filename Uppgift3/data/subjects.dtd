@@ -1,0 +1,17 @@
+<!--
+subjects
+	subject
+        attr: url
+	    name
+        info
+        courselist
+    not_awailable
+-->
+
+<!ELEMENT subjects (subject*, not_awailable)>
+	<!ELEMENT subject (name, info, courselist)>
+        <!ATTLIST subject url CDATA #IMPLIED>
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT info (#PCDATA)>
+        <!ELEMENT courselist (#PCDATA)>
+	<!ELEMENT not_awailable (#PCDATA)>

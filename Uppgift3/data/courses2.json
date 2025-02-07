@@ -1,0 +1,34 @@
+{
+	"subject": "Ekonomi",
+    "course": [
+        {
+            "level": "G1F",
+            "pace": "50%",
+            "code": "ek951",
+            "title": {
+                "swedish": "Bokföring på svartalvernas sätt",
+                "english": "Accounting the way of the Goblins"
+            },
+            "credits": 7.5,
+            "description": "Kreativ bokföring och hantering av magiska transaktioner.",
+            "teacher": "Griphook",
+            "website": {
+                "url": "https://magic.enur.se/ekonomi/ek951.html"
+            }
+        },
+        {
+            "level": "G1F",
+            "pace": "100%",
+            "code": "ek654",
+            "title": {
+                "swedish": "Mystiska kalkyler",
+                "english": "Mystical calculations"
+            },
+            "credits": 15,
+            "description": "Trollkonster för att få kalkyler att gå ihop.",
+            "website": {
+                "url": "https://magic.enur.se/ekonomi/ek654.html"
+            }
+        }
+    ]
+}
