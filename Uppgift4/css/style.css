@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* ----- Stil för uppgiften ----- */
+
+main section {
+    padding: 10px;
+    border-top: 1px solid #666;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+#courses2 li,
+#courseList p {
+    cursor: pointer;
+}

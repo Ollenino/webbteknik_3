@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teachers>
+    <course code="mp234">
+        <teacher>Alastar Moody</teacher>
+        <link url="https://www.hp-lexicon.org/character/alastor-mad-eye-moody/" />
+    </course>
+    <course code="mp987">
+        <teacher>Albus Dumbeldore</teacher>
+        <link url="https://www.hp-lexicon.org/character/dumbledore-family/albus-dumbledore/" />
+    </course>
+    <course code="mp123">
+        <teacher>Bathsheda Babbling</teacher>
+        <link url="https://www.hp-lexicon.org/character/bathsheda-babbling/" />
+    </course>
+    <course code="mp345">
+        <teacher>Filius Flitwick</teacher>
+        <link url="https://www.hp-lexicon.org/character/filius-flitwick/" />
+    </course>
+    <course code="mp654">
+        <teacher>Minerva McGonagall</teacher>
+        <link url="https://www.hp-lexicon.org/character/mcgonagall-family/minerva-mcgonagall/" />
+    </course>
+</teachers>

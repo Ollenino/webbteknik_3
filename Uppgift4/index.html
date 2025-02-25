@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbteknik 3 - Uppgift U4</title>
+    <meta name="Author" content="Student">
+    <meta name="Description" content="JavaScript-exempel">
+    <meta name="Keywords" content="javascript, webbteknik">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Webbteknik 3 — Uppgift U4</h1>
+        <h2>Manipulering av DOM med JavaScript</h2>
+    </header>
+    <main>
+        <section id="courses1">
+            <div>
+                <h2>Magiska kurser</h2>
+                <p>På en <a href="https://magic.enur.se" target="_blank">magisk plats</a> finns det några kurser i <a href="https://magic.enur.se/ekonomi/">ekonomi</a>, <a href="https://magic.enur.se/historia/">historia</a> och <a href="https://magic.enur.se/programmering/">programmering</a>.</p>
+                <p>Kursen <a href="https://magic.enur.se/programmering/mp345.html">Trollformler i felsökning</a> är en spännande och adrenalinhöjande kurs. Här finns en <a href="http://hpw.wikidot.com/trollformler" target="_blank">lista med trollformler</a> som du kan öva på.</p>
+            </div>
+            <div>
+                <p><button type="button" id="linkBtn">Lista länkar</button></p>
+                <ul id="linkList"></ul> <!-- Här ska programmet lägga in textens länkar. -->
+            </div>
+        </section>
+        <section id="courses2">
+            <div>
+                <h2>Välj kurser</h2>
+                <p>Kurser i <a href="https://magic.enur.se/programmering/">magisk programmering</a>:</p>
+                <ul>
+                    <li>mp123, Magiska koder, 7,5hp</li>
+                    <li>mp234, Gåtfulla objekt, 15hp</li>
+                    <li>mp345, Trollformler i felsökning, 7,5hp</li>
+                    <li>mp654, Mystiska loopar, 15hp</li>
+                    <li>mp987, Överaskande funktioner, 7,5hp</li>
+                </ul>
+                <p><i>Klicka på en kurs, för att lägga in den i listan till höger.</i></p>
+            </div>
+            <div>
+                <h2>Valda kurser</h2>
+                <div id="courseList"></div> <!-- Här ska programmet lägga in valda kurser. -->
+                <p><i>Klicka på en kurs, för att ta bort den ur listan.</i></p>
+            </div>
+        </section>
+        <section id="courses3">
+            <div>
+                <h2>Kursansvariga lärare</h2>
+                <ul>
+                    <li>mp123, Magiska koder, 7,5hp</li>
+                    <li>mp234, Gåtfulla objekt, 15hp</li>
+                    <li>mp345, Trollformler i felsökning, 7,5hp</li>
+                    <li>mp654, Mystiska loopar, 15hp</li>
+                    <li>mp987, Överaskande funktioner, 7,5hp</li>
+                </ul>
+            </div>
+            <div>
+                <p><button type="button" id="teacherBtn">Lägg till lärare</button></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Uppgift i Webbteknik 3 — <a href="https://wt3.enur.se" target="_blank">wt3.enur.se</a></p>
+    </footer>
+</body>
+
+</html>
