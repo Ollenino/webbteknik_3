@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbteknik 3 - Uppgift U6-1</title>
+    <meta name="Author" content="Student">
+    <meta name="Description" content="JavaScript-exempel">
+    <meta name="Keywords" content="javascript, webbteknik">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="js/script1.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Webbteknik 3 — Uppgift U6-1</h1>
+        <h2>API för webbtjänster</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="thisPage">Del 6-1</a></li>
+            <li><a href="part2.html">Del 6-2</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Sök bilder på Flickr</h2>
+        <form id="flickrSearch">
+            <label>Taggar: <input type="text" name="tags"></label>
+            <button type="button" name="searchBtn">Sök</button>
+            <div></div> <!-- Här ska sökta bilder visas -->
+            <button type="button" name="prevBtn">Föregående sida</button>
+            <span></span> <!-- Här ska sidnummer i sökningen visas -->
+            <button type="button" name="nextBtn">Nästa sida</button>
+        </form>
+        <div id="largeImg">
+            <img src="" alt="Stor bild">
+            <p></p> <!-- Element för bildtext -->
+            <p></p> <!-- Element för latitud och longitud -->
+        </div>
+        <div id="imgMap"></div>
+        <h3>Fler bilder från samma plats</h3>
+        <div id="moreImgs"></div>
+    </main>
+    <footer>
+        <p>Uppgift i Webbteknik 3 — <a href="https://wt3.enur.se" target="_blank">wt3.enur.se</a></p>
+    </footer>
+</body>
+
+</html>

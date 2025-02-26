@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/* ------ Stil för första sidan ----- */
+
+#flickrSearch {
+    margin-bottom: 1em;
+}
+
+#flickrSearch input {
+    margin-right: 20px;
+    font-size: 1em;
+}
+
+#flickrSearch div {
+    margin: 1em 0;
+}
+#flickrSearch img,
+#moreImgs img {
+    width: 100px;
+    margin-right: 10px;
+    border: 3px groove #900;
+}
+
+#flickrSearch img {
+    cursor: pointer;
+}
+
+#flickrSearch span {
+    margin: 0 2em;
+}
+
+#largeImg {
+    display: inline-block;
+    width: 48%;
+    margin: 0;
+    padding: 0;
+    margin-right: 2%;
+    vertical-align: top;
+}
+
+#largeImg img {
+    width: 100%;
+}
+
+#imgMap {
+    display: inline-block;
+    width: 48%;
+    height: 300px;
+    vertical-align: top;
+}
+
+/* ------ Stil för andra sidan ----- */
+
+#map {
+    width: 90%;
+    height: 400px;
+    margin: 15px auto;
+    border: 3px solid #900;
+}
+
+#mapLocation {
+    text-align: center;
+    height: 2em;
+}
+
+#addrBtns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#addrBtns button {
+    margin: 6px;
+}
+
+#flickrImgs img {
+    width: 100px;
+    margin: 5px;
+    border: 3px groove #900;
+}
