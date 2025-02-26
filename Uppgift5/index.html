@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbteknik 3 - Uppgift U5</title>
+    <meta name="Author" content="Student">
+    <meta name="Description" content="JavaScript-exempel">
+    <meta name="Keywords" content="javascript, webbteknik">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Webbteknik 3 — Uppgift U5</h1>
+        <h2>Objekt i JavaScript</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="thisPage">Sida 1</a></li>
+            <li><a href="index2.html">Sida 2</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Bildspel</h3>
+        <form>
+            <select id="categoryMenu">
+                <option>Välj kategori ...</option>
+                <option>Blommor</option>
+                <option>Fjärilar</option>
+                <option>Katter</option>
+                <option>Frukt</option>
+            </select>
+        </form>
+        <dialog class="imgViewer" id="largeViewer">
+            <div class="imgViewerWrap">
+                <h4></h4> <!-- Titel för bildkategori -->
+                <p></p> <!-- Bildnummer och bildtext -->
+                <img src="img/blank.png" alt="Bild i bildspelet">
+                <div class="imgViewerControl">
+                    <button type="button" class="leftBtn">&larr;</button>
+                    <button type="button" class="autoBtn">auto</button>
+                    <button type="button" class="rightBtn">&rarr;</button>
+                </div>
+                <button type="button" class="closeBtn">&cross;</button>
+            </div>
+        </dialog>
+    </main>
+    <footer>
+        <p>Uppgift i Webbteknik 3 — <a href="https://wt3.enur.se" target="_blank">wt3.enur.se</a></p>
+    </footer>
+</body>
+
+</html>

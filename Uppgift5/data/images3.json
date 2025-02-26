@@ -1,0 +1,33 @@
+{
+	"category": "Katter",
+	"image": [
+		{
+			"url": "img/cats/black.jpg",
+			"caption": "Svart katt med gula ögon"
+		},
+		{
+			"url": "img/cats/blue-eyes.jpg",
+			"caption": "Kattunge med blå ögon"
+		},
+		{
+			"url": "img/cats/cat-flower.jpg",
+			"caption": "Katt leker med blomma"
+		},
+		{
+			"url": "img/cats/curious.jpg",
+			"caption": "Nyfiken katt"
+		},
+		{
+			"url": "img/cats/sleepy.jpg",
+			"caption": "Sömnig katt"
+		},
+		{
+			"url": "img/cats/watching.jpg",
+			"caption": "Katt som väntar på någon?"
+		},
+		{
+			"url": "img/cats/yellow.jpg",
+			"caption": "En gul katt"
+		}
+	]
+}

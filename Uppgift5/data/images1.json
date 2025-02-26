@@ -1,0 +1,33 @@
+{
+	"category": "Blommor",
+	"image": [
+		{
+			"url": "img/flowers/bellflower.jpg",
+			"caption": "Blåklocka"
+		},
+		{
+			"url": "img/flowers/daisy.jpg",
+			"caption": "Prästkrage"
+		},
+		{
+			"url": "img/flowers/liverflower.jpg",
+			"caption": "Blåsippa"
+		},
+		{
+			"url": "img/flowers/lotus.jpg",
+			"caption": "Lotusblomma"
+		},
+		{
+			"url": "img/flowers/roses.jpg",
+			"caption": "Rosor"
+		},
+        {
+			"url": "img/flowers/sunflower.jpg",
+			"caption": "Solros"
+		},
+        {
+			"url": "img/flowers/tulips.jpg",
+			"caption": "Tulpaner"
+		}
+	]
+}

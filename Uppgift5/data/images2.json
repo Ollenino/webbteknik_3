@@ -1,0 +1,33 @@
+{
+	"category": "Fjärilar",
+	"image": [
+		{
+			"url": "img/butterflies/barley-ear.jpg",
+			"caption": "Kartfjäril"
+		},
+		{
+			"url": "img/butterflies/tiger-swallowtail.jpg",
+			"caption": "Makaonfjäril"
+		},
+		{
+			"url": "img/butterflies/blue.jpg",
+			"caption": "Blå Morpho"
+		},
+		{
+			"url": "img/butterflies/eurema.jpg",
+			"caption": "Svavelfjäril"
+		},
+		{
+			"url": "img/butterflies/caterpillar.jpg",
+			"caption": "Fjärilslarv"
+		},
+		{
+			"url": "img/butterflies/orange.jpg",
+			"caption": "Lundpärlemofjäril"
+		},
+		{
+			"url": "img/butterflies/peacock.jpg",
+			"caption": "Påfågelöga"
+		}
+	]
+}

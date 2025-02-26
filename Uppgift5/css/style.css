@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* ----- Stil för uppgiften ----- */
+
+/* --- Stil för bildspelet --- */
+.imgViewer {
+    background-color: #eee;
+	border: 2px solid #bbb;
+	padding: 0;
+    box-shadow: 0px 0px 20px 5px #999;
+    position: relative;
+    height:max-content;
+}
+.imgViewer::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.imgViewer h4,
+.imgViewer p {
+    padding: 5px;
+    margin: 0;
+}
+.imgViewer img {
+	display: block;
+	max-height: 100dvh;
+}
+.imgViewer .imgViewerWrap {
+    max-width: 800px;
+}
+.imgViewer .imgViewerControl {
+    background-color:#BBB;
+    display: flex;
+    justify-content: space-between;
+}
+.imgViewer button {
+	background-color: #BBB;
+    border: none;
+    color: #000;
+	font-size: 1.5em;
+    border-radius: 0;
+}
+.imgViewer button.closeBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.imgViewer button:hover {
+	background-color: #999;
+	color: #FFF;
+}
+.imgViewer .imgMenu {
+    background-color: #AAA;
+    font-size: 0.9em;
+}
+
+/* --- Stil för små bildspel --- */
+#smallViewers {
+    margin-top: 20px;;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#smallViewers div {
+    width: 140px;
+    cursor: pointer;
+}
+#smallViewers h4 {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+/* --- Stil för menyn --- */
+/* Stilsätts även i layout.css */
+#categoryMenu {
+    margin-bottom: 20px;
+}

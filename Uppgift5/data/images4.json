@@ -1,0 +1,37 @@
+{
+	"category": "Frukt",
+	"image": [
+		{
+			"url": "img/fruits/apple.jpg",
+			"caption": "Äpple"
+		},
+		{
+			"url": "img/fruits/banana.jpg",
+			"caption": "Banan"
+		},
+		{
+			"url": "img/fruits/kiwi.jpg",
+			"caption": "Kiwi"
+		},
+		{
+			"url": "img/fruits/lemon.jpg",
+			"caption": "Citron"
+		},
+		{
+			"url": "img/fruits/peach.jpg",
+			"caption": "Persika"
+		},
+		{
+			"url": "img/fruits/pear.jpg",
+			"caption": "Päron"
+		},
+		{
+			"url": "img/fruits/pineapple.jpg",
+			"caption": "Ananas"
+		},
+		{
+			"url": "img/fruits/watermelon.jpg",
+			"caption": "Vattenmelon"
+		}
+	]
+}
