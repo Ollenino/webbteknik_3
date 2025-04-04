@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* ----- Stil för sidan med listorna list.html ----- */
+
+/* ----- Layout ----- */
+main {
+    display: grid;
+    grid-template-columns: auto auto 60px;
+    grid-template-rows: min-content auto;
+    grid-template-areas:
+        "intro intro intro"
+        "wish  cart  trash";
+    gap: 20px;
+}
+
+main > p:first-of-type { /* Introtexten */
+    grid-area: intro;
+    margin: 0;
+}
+
+#favorites { /* Önskelistan */
+    grid-area: wish;
+    background-color: #FFC;
+    padding: 12px;
+    touch-action: none;
+}
+#shoppingcart { /* Varukorgen */
+    grid-area: cart;
+    background-color: #FDB;
+    padding: 12px;
+    touch-action: none;
+}
+#favorites h3,
+#shoppingcart h3 {
+    border-bottom: 3px solid #a7420c;
+}
+
+#trash { /* Soptunnan */
+    grid-area: trash;
+    align-self: end;
+}
+
+footer { /* Sidfoten visas inte på denna sida */
+    display: none;
+}
+
+/* ----- Stil för listorna och det element som dras ----- */
+.list > div { /* Element för en hela önskelistan eller hela varukorgen */
+    margin-bottom: 20px;
+    cursor: grab;
+    user-select: none;
+    touch-action: none;
+}
+
+.list > div > *,
+.dragItemClone > * { /* Alla element för varorna i listorna samt i det element som dras */
+    margin: 0;
+    padding: 0;
+}
+
+.list .artnr,
+.dragItemClone .artnr { /* Dolt element för atikelnumret */
+    display: none;
+}
+
+.dragItemClone { /* Stil för det element som dras, en klon av det man tar tag i */
+    position: absolute;
+    z-index: 1000;
+    cursor: grab;
+}
+
+/* ----- Stil för soptunnan ----- */
+#trashcan {
+    display: inline-block;
+    width: 60px;
+    height: 100px;
+    background-image: url(../img/trashcan.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    bottom: 10px;
+}
+
+/* ----- Stil för en drop zone ----- */
+#favorites.hiliteDropZone,
+#shoppingcart.hiliteDropZone {
+    background-color: #7E9;
+}
+
+#trashcan.hiliteDropZone {
+    background-image: url(../img/trashcan2.png);
+}

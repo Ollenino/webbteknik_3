@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbteknik 3 - Uppgift U7 - sida 2</title>
+    <meta name="Author" content="Rune Körnefors">
+    <meta name="Description" content="Uppgift 7 i kursen Webbteknik 3">
+    <meta name="Keywords" content="javascript, webbteknik">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/list.css">
+    <script src="js/data.js"></script>
+    <script src="js/listobject.js"></script>
+    <script src="js/list.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Webbteknik 3 — Uppgift U7</h1>
+        <h2>Pointer events för interaktion både med mus och på pekskärm</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Startsidan</a></li>
+            <li><a href="list.html" class="thisPage">Listorna</a></li>
+            <li><a href="xtra.html">Kakor</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>Dra varor mellan listorna eller till soptunnan.</p>
+        <div id="favorites" class="dropZone">
+            <h3>Önskelista</h3>
+            <div class="list">
+                <!-- Här lägger JS-koden in div-element för de produkter som finns i önskelistan -->
+            </div>
+        </div>
+        <div id="shoppingcart" class="dropZone">
+            <h3>Din godispåse</h3>
+            <div class="list">
+                <!-- Här lägger JS-koden in div-element för de produkter som finns i varukorgen -->
+            </div>
+        </div>
+        <div id="trash">
+            <span id="trashcan" class="dropZone"></span>
+        </div>
+    </main>
+    <footer>
+        <p>Uppgift i Webbteknik 3 — <a href="https://wt3.enur.se" target="_blank">wt3.enur.se</a> — Bilder från <a href="Bilder från https://creazilla.com/sv/" target="_blank">crezilla.com</a></p>
+    </footer>
+</body>
+
+</html>

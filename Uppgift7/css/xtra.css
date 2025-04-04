@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* ----- Stil för sidan med extrameriten xgtra.html ----- */
+
+#cookies { /* Element som omger kakboxarna */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cookie-box { /* Element som omger en kakbox bilder */
+    flex: 0 1 250px;
+    box-shadow: 0px 0px 8px 2px #000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    touch-action: none;
+}
+
+.cookie-box img { /* Både framsida och insida av kakboxen */
+    display: block;
+}
+
+.cookie-box .inside { /* img-tagg för insidan av kakboxen */
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    border-radius: 5%;
+    box-shadow: 0px 0px 20px 5px #000 inset, 0px 0px 20px 5px #000;
+    opacity: 0.95;
+    scale: 0.01;
+}

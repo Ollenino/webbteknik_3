@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* ----- Stil för startsidan index.htm ----- */
+
+div {
+    box-sizing: border-box;
+}
+
+/* ----- Stil för slides med produktkategorier ----- */
+
+#imgViewer {
+    max-width: 100%; /* Ändrat från 700px till 100% */
+    margin: 30px auto;
+    clear: both;
+}
+
+.slideshow {
+    border: 1px solid #000;
+    background-color: #FFF;
+    overflow: hidden;
+    user-select: none;
+    touch-action: none;
+}
+
+.slideshow > div {
+    display: flex;
+    transform: translateX(0);
+    transition-property: transform;
+    transition-duration: 0;
+    transition-timing-function: ease-out;
+}
+
+.slideshow .slide {
+    flex: 0 0 200px;   /* Ändrad från 100% till 200px */
+    max-height: 100dvh;
+    height: 120px;     /* Ändrad från 450px till 120px */
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+
+.slideshow img {
+    max-width: 100%;
+    max-height: 70%;  /* Ändrad från 100% till 70% */
+}
+
+.slideshow h4,
+.slideshow p {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----- Presentation av produkter ----- */
+#products > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+#products .product {
+    flex: 0 1 140px;
+    text-align: center;
+}
+
+#products img {
+    width: 80%;
+}
+
+#products h4,
+#products p {
+    margin: 4px 0;
+}
+
+#products p {
+    font-size: 0.8em;
+}
+
+#products button.order {
+    background-color: #82b3e3;
+    color: #000;
+}
+
+#products button.order:hover {
+    background-color: #4c8fd2;
+}
+
+/* ----- Stil för godispåsen ----- */
+#candybag {
+    max-width: 100%;
+    width: 70px;
+    float: left;
+}
